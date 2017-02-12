@@ -1,0 +1,59 @@
+url: 'standtosecurity.com'
+baseurl: '/'
+
+# Site settings
+title: Stand to Security
+email: info@standtosecurity.com
+description: 'Stand to Security is a provider of security and IT services'
+
+
+# Team names, titles and social links
+people:
+- name: Tyson Barber
+  pic: 1
+  position: CEO
+  social:
+    - title: 'LinkedIn'
+      url: 'www.linkedin.com/in/barbertc'
+    - title: 'Resume'
+      url: 'tysonbarber.me'
+
+#- name: Larry Parker
+#  pic: 2
+#  position: Lead Marketer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: linkedin
+#      url: #
+
+#- name: Diana Petersen
+#  pic: 3
+#  position: Lead Developer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: 'https://twitter.com/stand2security'
+  - title: facebook
+    url: 'https://www.facebook.com/standtosec/'
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
