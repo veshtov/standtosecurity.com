@@ -176,7 +176,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    text-transform: uppercase;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -245,6 +246,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
+        display: none;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -262,6 +264,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        display: inherit;
     }
 }
 
