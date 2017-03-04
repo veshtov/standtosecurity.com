@@ -13,7 +13,7 @@ people:
   pic: 1
   position: CEO
   social:
-    - title: 'LinkedIn'
+    - title: 'linkedin'
       url: 'www.linkedin.com/in/barbertc'
     - title: 'file-o'
       url: 'tysonbarber.me'
